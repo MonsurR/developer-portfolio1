@@ -146,7 +146,7 @@ padding:30px;
 .resume-content{
 
     display: flex;
-    gap: 24px;
+    gap:24;
 }
 .resume .title{
     font-size: 25px;
@@ -178,8 +178,18 @@ padding:30px;
     display:flex;
     gap: 100px;
     background: #FFF8F3;
-    padding: 130px, 200px;
+    padding: 130x, 200px;
 }
 .contact .section-title{
     text-align:left;
+}
+
+.contact input, textarea{
+    margin-bottom:24px;
+    border:0;
+    width:100%;
+    padding: 18px 30px;;
+}
+input{
+    height:64px;
 }
